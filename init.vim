@@ -26,3 +26,11 @@ let mapleader=" "
 nmap <Leader>w :w<CR>
 " salida
 nmap <Leader>q :q<CR>
+
+" PlugVim
+call plug#begin('~/.config/nvim/plugged')
+Plug 'folke/tokyonight.nvim', { 'branch': 'main'} 
+call plug#end()
+
+" Configuración theme
+colorscheme tokyonight-moon

@@ -21,3 +21,24 @@ My Neovim setup
   ...
   ```
 
+## Instalando gestor de extensiones
+  Necesitamos un manejador de plugins para mejor funcionalidad del editor, utilizaremos [PlugVim](https://github.com/junegunn/vim-plug).
+  ```bash
+  # Instalación dentro de nuestra carpeta de nvim
+  curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+
+  Configuración de la carpeta donde alojaremos nuestro plugins:
+  ```bash
+  # Carpeta donde se instalaran los plugins
+  call plug#begin('~/.config/nvim/plugged')
+    # Lista de los plugins a instalar
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main'}
+  call plug#end()
+  ```
+  Llamamos el comando:
+  ```bash
+  # dentro del editor
+  :PlugInstall
+  ```
