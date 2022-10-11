@@ -26,10 +26,14 @@ let mapleader=" "
 nmap <Leader>w :w<CR>
 " salida
 nmap <Leader>q :q<CR>
+" nerdtree
+nmap <Leader>nt :NERDTreeFind<CR>
 
 " PlugVim
 call plug#begin('~/.config/nvim/plugged')
 Plug 'folke/tokyonight.nvim', { 'branch': 'main'} 
+Plug 'scrooloose/nerdtree'
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 " Configuración theme

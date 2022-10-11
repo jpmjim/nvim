@@ -42,3 +42,19 @@ My Neovim setup
   # dentro del editor
   :PlugInstall
   ```
+
+## Nerdtree y Vim Tmux Navigator
+  - El NERDTree es un explorador de sistemas de archivos para el editor Vim. Con este complemento, los usuarios pueden navegar visualmente por jerarquías de directorios complejas, abrir archivos rápidamente para leerlos o editarlos y realizar operaciones básicas del sistema de archivos.
+
+    Instalación:
+    ```bash
+    Plug 'scrooloose/nerdtree'
+    #config de ejecucion
+    nmap <Leader>nt :NERDTreeFind<CR>
+    ```
+  - Instalaremos un plugin que nos permita navegar solamente con el teclado y cuando tengamos mas de una instancia abierta, Para poder movernos mantenemos presionado la tecla **<kbd>control</kbd>** y con las letras ***h, j, k, l*** podemos movernos.:
+    ```bash
+    Plugin 'christoomey/vim-tmux-navigator'
+    # Corremos
+    :PlugInstall
+    ```
