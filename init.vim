@@ -1,4 +1,5 @@
 set title
+set ruler
 set number 
 set mouse=a
 set numberwidth=1
@@ -41,6 +42,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 " Configuración theme
@@ -50,3 +52,6 @@ call plug#end()
 " let g:airline#extensions#tabline#fnamemod = ':t'
 " let g:airline_powerline_fonts = 1
 let g:airline_theme='term'
+
+" Easymotion
+nmap <Leader>s <Plug>(easymotion-s2)
