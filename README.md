@@ -58,5 +58,4 @@ My Neovim setup
     # Corremos
     :PlugInstall
     ```
-## Barra de estado
   

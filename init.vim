@@ -43,6 +43,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'easymotion/vim-easymotion'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Configuración theme
