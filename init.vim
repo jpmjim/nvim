@@ -18,7 +18,8 @@ set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab
-    
+
+set noshowmode 
 " tecla lider
 let mapleader=" "
 
@@ -38,9 +39,14 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main'}
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Configuración theme
-colorscheme tokyonight-day
 
-
+" Barra de Estado
+" let g:airline#extensions#tabline#enable = 1
+" let g:airline#extensions#tabline#fnamemod = ':t'
+" let g:airline_powerline_fonts = 1
+let g:airline_theme='term'
