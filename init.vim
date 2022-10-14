@@ -19,8 +19,8 @@ set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab
-
-set noshowmode 
+set termguicolors
+set noshowmode
 " tecla lider
 let mapleader=" "
 
@@ -47,6 +47,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'alvan/vim-closetag'
 " Comando es ctrl+y+,
 Plug 'mattn/emmet-vim'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 " Configuración theme
