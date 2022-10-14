@@ -48,6 +48,7 @@ Plug 'alvan/vim-closetag'
 " Comando es ctrl+y+,
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
+Plug 'windwp/nvim-autopairs'
 call plug#end()
 
 " Configuración theme
@@ -63,3 +64,7 @@ nmap <Leader>s <Plug>(easymotion-s2)
 
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+lua << EOF
+require("nvim-autopairs").setup {}
+EOF
