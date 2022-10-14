@@ -44,7 +44,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'easymotion/vim-easymotion'
 Plug 'ryanoasis/vim-devicons'
-
+Plug 'alvan/vim-closetag'
 " Comando es ctrl+y+,
 Plug 'mattn/emmet-vim'
 call plug#end()
