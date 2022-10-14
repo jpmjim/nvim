@@ -49,7 +49,8 @@ Plug 'alvan/vim-closetag'
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'windwp/nvim-autopairs'
-Plug 'valloric/youcompleteme'
+Plug 'tpope/vim-surround'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 " Configuración theme
@@ -71,4 +72,5 @@ autocmd FileType html,css EmmetInstall
 lua << EOF
 require "nvim-autopairs".setup {} 
 EOF
-
+let g:loaded_python3_provider = 0
+let g:loaded_python3_provider=0
