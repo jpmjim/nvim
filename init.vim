@@ -60,3 +60,6 @@ let g:airline_theme='term'
 
 " Easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
+
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
