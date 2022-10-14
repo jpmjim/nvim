@@ -49,6 +49,7 @@ Plug 'alvan/vim-closetag'
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'windwp/nvim-autopairs'
+Plug 'valloric/youcompleteme'
 call plug#end()
 
 " Configuración theme
@@ -65,6 +66,9 @@ nmap <Leader>s <Plug>(easymotion-s2)
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
+
+" Config de autopairs
 lua << EOF
-require("nvim-autopairs").setup {}
+require "nvim-autopairs".setup {} 
 EOF
+
