@@ -3,7 +3,7 @@ set ruler
 set number 
 set mouse=a
 set numberwidth=1
-set clipboard=unnamed
+set clipboard+=unnamedplus
 syntax enable
 set showcmd
 set ruler
@@ -21,6 +21,7 @@ set shiftround
 set expandtab
 set termguicolors
 set noshowmode
+
 " tecla lider
 let mapleader=" "
 
@@ -53,6 +54,8 @@ Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-fugitive'
 Plug 'shougo/deoplete.nvim'
+Plug 'valloric/youcompleteme'
+Plug 'tribela/vim-transparent'
 call plug#end()
 
 " Configuración theme
@@ -79,3 +82,6 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 let g:deoplete#enable_at_startup = 1
+colorscheme tokyonight-moon
+
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
