@@ -1,2 +1,3 @@
 console.log("hola mundo")
-doccument.querySelector() 
+document.querySelector()
+const hello = 'hola mundo';

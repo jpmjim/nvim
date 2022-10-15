@@ -52,6 +52,7 @@ Plug 'windwp/nvim-autopairs'
 Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-fugitive'
+Plug 'shougo/deoplete.nvim'
 call plug#end()
 
 " Configuración theme
@@ -76,3 +77,5 @@ EOF
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+let g:deoplete#enable_at_startup = 1
