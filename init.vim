@@ -1,3 +1,6 @@
+let g:polyglot_disabled = ['markdown']
+let g:polyglot_disabled = ['autoindent']
+let g:polyglot_disabled = ['sensible']
 set title
 set ruler
 set number 
@@ -56,6 +59,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'shougo/deoplete.nvim'
 Plug 'valloric/youcompleteme'
 Plug 'tribela/vim-transparent'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 colorscheme gruvbox
 " Configuración theme
