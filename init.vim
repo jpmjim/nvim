@@ -57,7 +57,7 @@ Plug 'shougo/deoplete.nvim'
 Plug 'valloric/youcompleteme'
 Plug 'tribela/vim-transparent'
 call plug#end()
-
+colorscheme gruvbox
 " Configuración theme
 
 " Barra de Estado
@@ -82,6 +82,7 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 let g:deoplete#enable_at_startup = 1
-colorscheme tokyonight-moon
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+
