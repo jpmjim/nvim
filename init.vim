@@ -60,6 +60,12 @@ Plug 'shougo/deoplete.nvim'
 Plug 'valloric/youcompleteme'
 Plug 'tribela/vim-transparent'
 Plug 'sheerun/vim-polyglot'
+Plug 'dense-analysis/ale'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete-emmet.vim'
 call plug#end()
 colorscheme gruvbox
 " Configuración theme
