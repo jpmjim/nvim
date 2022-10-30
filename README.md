@@ -58,4 +58,4 @@ My Neovim setup
     # Corremos
     :PlugInstall
     ```
-  
+  https://www.youtube.com/watch?v=4mstXImyxOQ&t=141s
